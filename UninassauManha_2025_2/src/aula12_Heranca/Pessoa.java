@@ -29,7 +29,13 @@ public class Pessoa {
 		this.dataNascimento = dataNascimento;
 	}
 	
-	
+	public void mostrarInformacoes() {
+		System.out.println("Nome = "+this.nome);
+		System.out.println("Data de nascimento = "+
+		this.dataNascimento.getDia()+
+		"/"+this.dataNascimento.getMes()+
+		"/"+this.dataNascimento.getAno());
+	}
 	
 
 }
