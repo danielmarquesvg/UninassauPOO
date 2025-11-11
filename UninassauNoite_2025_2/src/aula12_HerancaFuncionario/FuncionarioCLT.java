@@ -9,6 +9,7 @@ public class FuncionarioCLT extends Funcionario {
 		super(nome);
 		this.cargaHoraria = cargaHoraria;
 		this.valorHora = valorHora;
+		calcularSalario();
 	}
 	
 	public void calcularSalario() {
